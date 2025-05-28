@@ -62,31 +62,3 @@ You can install all the necessary Python packages using `pip`:
 
 ```bash
 pip install opencv-python cvzone numpy
-
-## 💻 How to Run the Project
-Step 1: Define Parking Spaces
-First, you need to define the parking spaces using parking_space_picker.py.
-
-Make sure you have carParkImg.png in the project directory.
-
-Run the script:
-
-```Bash
-
-python parking_space_picker.py
-A window displaying carParkImg.png will appear.
-
-Left-click to select the top-left corner of a parking space.
-Right-click to remove a previously selected parking space.
-Press any key to exit the window and save the CarParkPos file.
-Step 2: Run the Parking Space Detector
-Once you have defined and saved the parking spaces, you can run the main detector.
-
-Make sure you have carPark.mp4 and the generated CarParkPos file in the project directory.
-
-Run the main script:
-
-```Bash
-
-python main_parking_detector.py
-A window showing the real-time parking space detection will appear.
