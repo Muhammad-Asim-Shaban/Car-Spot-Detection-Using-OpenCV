@@ -7,15 +7,6 @@ This project implements a **Smart Parking Space Detector** using computer vision
 
 ---
 
-## 🏗️ Project Structure
-.
-├── carParkImg.png          # Image used for defining parking space regions
-├── carPark.mp4             # Video feed for parking space detection
-├── CarParkPos              # Binary file to store saved parking spot coordinates
-├── parking_space_picker.py # Script to select and save parking space coordinates
-└── main_parking_detector.py # Main script for real-time parking space detection
-
----
 
 ## 🚀 How to Clone This Project
 
