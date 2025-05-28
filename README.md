@@ -1,4 +1,3 @@
-
 # 🅿️ Smart Parking Space Detector
 
 ---
@@ -9,14 +8,11 @@ This project implements a **Smart Parking Space Detector** using computer vision
 ---
 
 ## 🏗️ Project Structure
-
-.
 ├── carParkImg.png          # Image used for defining parking space regions
 ├── carPark.mp4             # Video feed for parking space detection
 ├── CarParkPos              # Binary file to store saved parking spot coordinates
 ├── parking_space_picker.py # Script to select and save parking space coordinates
 └── main_parking_detector.py # Main script for real-time parking space detection
-
 
 ---
 
@@ -66,6 +62,7 @@ You can install all the necessary Python packages using `pip`:
 
 ```bash
 pip install opencv-python cvzone numpy
+
 ## 💻 How to Run the Project
 Step 1: Define Parking Spaces
 First, you need to define the parking spaces using parking_space_picker.py.
@@ -74,7 +71,7 @@ Make sure you have carParkImg.png in the project directory.
 
 Run the script:
 
-Bash
+```Bash
 
 python parking_space_picker.py
 A window displaying carParkImg.png will appear.
@@ -89,7 +86,7 @@ Make sure you have carPark.mp4 and the generated CarParkPos file in the project 
 
 Run the main script:
 
-Bash
+```Bash
 
 python main_parking_detector.py
 A window showing the real-time parking space detection will appear.
